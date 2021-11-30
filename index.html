@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--ICONS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--GLIDER SLIDER-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Decbase</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="center-container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="assets/icons/logo.png" />
+          </div>
+          <button type="button" id="menuBtn" class="hidden">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu">
+            <button type="button" id="closeMenuBtn" class="hidden">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul>
+              <li><a href="#home">home</a></li>
+              <li><a href="#services">services</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#testimonials">testimonials</a></li>
+              <li>
+                <button class="btn">
+                  <a href="#contact">contact</a>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="section">
+        <div class="center-container">
+          <div class="hero">
+            <div class="hero-texts">
+              <h2>Modern Interior</h2>
+              <h1>Create Your <br />Interior Design</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation.
+              </p>
+              <button class="btn">
+                <a href="#contact">contact</a>
+              </button>
+            </div>
+            <div class="hero-img">
+              <div class="hero-img-outline">
+                <img src="assets/images/hero.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="center-container">
+          <div class="services-titles">
+            <h2>What we do</h2>
+            <h1>Our Services</h1>
+          </div>
+          <div class="services-carousel">
+            <div class="arrows" data-glide-el="controls">
+              <button class="prev-btn glide__arrow--left" data-glide-dir="<">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="next-btn glide__arrow--right" data-glide-dir=">">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <div class="cards-container glide__track" data-glide-el="track">
+              <div class="cards-wrapper glide__slides">
+                <div class="card-wrapper glide__slide">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="assets/icons/interior-design.png" />
+                    </div>
+                    <div class="card-text">
+                      <h3>Interior Design</h3>
+                      <p>
+                        Lorem ipsum dolor amet consectetur adipiscing elit sed
+                        eiusmod tempor incididunt ut labore.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-wrapper glide__slide">
+                  <div class="card backcolor">
+                    <div class="card-img">
+                      <img src="assets/icons/architecture.png" />
+                    </div>
+                    <div class="card-text">
+                      <h3>Architecture</h3>
+                      <p>
+                        Lorem ipsum dolor amet consectetur adipiscing elit sed
+                        eiusmod tempor incididunt ut labore.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-wrapper glide__slide">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="assets/icons/planning.png" />
+                    </div>
+                    <div class="card-text">
+                      <h3>Planning</h3>
+                      <p>
+                        Lorem ipsum dolor amet consectetur adipiscing elit sed
+                        eiusmod tempor incididunt ut labore.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-wrapper glide__slide">
+                  <div class="card backcolor">
+                    <div class="card-img">
+                      <img src="assets/icons/management.png" />
+                    </div>
+                    <div class="card-text">
+                      <h3>Management</h3>
+                      <p>
+                        Lorem ipsum dolor amet consectetur adipiscing elit sed
+                        eiusmod tempor incididunt ut labore.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-wrapper glide__slide">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="assets/icons/consulting.png" />
+                    </div>
+                    <div class="card-text">
+                      <h3>Consultancy</h3>
+                      <p>
+                        Lorem ipsum dolor amet consectetur adipiscing elit sed
+                        eiusmod tempor incididunt ut labore.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="center-container">
+          <div class="about">
+            <div class="about-img">
+              <div class="about-img-outline">
+                <img src="assets/images/about-us.png" />
+              </div>
+            </div>
+            <div class="about-texts">
+              <h2>About us</h2>
+              <h1>Interioris The Will<br />of An Epoch Mextreo</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Dignissimos, amet!
+                Accusamus laboriosam nulla, vitae perferendis, accusantium
+                aliquam veniam odit vero ipsum eligendi molestiae itaque velit
+                repellendus quidem voluptate quisquam iusto.
+              </p>
+              <button class="btn">
+                <a href="#contact">contact</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <div class="center-container">
+          <div class="testimonials-titles">
+            <h2>testimonials</h2>
+            <h1>Client Says About us</h1>
+          </div>
+
+          <div class="testimonials-carousel">
+            <div class="arrows" data-glide-el="controls">
+              <button class="prev-btn glide__arrow--left" data-glide-dir="<">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="next-btn glide__arrow--right" data-glide-dir=">">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <div class="cards-containers glide__track" data-glide-el="track">
+              <div class="cards-wrapper glide__slides">
+                <div class="card-wrapper glide__slide">
+                  <div class="card-img">
+                    <img src="assets/images/Louis.jpg" />
+                  </div>
+                  <div class="card">
+                    <div class="card-text">
+                      <h3>Louis Savile <small>/CEO at Google</small></h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-wrapper glide__slide">
+                  <div class="card-img">
+                    <img src="assets/images/Rekha.jpg" />
+                  </div>
+                  <div class="card">
+                    <div class="card-text">
+                      <h3>Rekha Varadwaz <small>/Manager at Nike</small></h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-wrapper glide__slide">
+                  <div class="card-img">
+                    <img src="assets/images/Bryan.jpg" />
+                  </div>
+                  <div class="card">
+                    <div class="card-text">
+                      <h3>Bryan M. <small>/CAD operator at Omni R</small></h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="center-container">
+          <h1>Contact</h1>
+          <div class="form">
+            <form>
+              <label class="sr-only" for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter your name..." />
+
+              <label class="sr-only" for="email">Email</label>
+              <input type="text" id="email" placeholder="Enter your email..." />
+
+              <label class="sr-only">Message</label>
+              <textarea name="" placeholder="Enter message..."></textarea>
+
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="center-container">
+        <div class="footer-container">
+          <div class="footer-logo">
+            <img src="assets/icons/logo.png" />
+            <p>
+              But i must explain to you all this mistaken idea of dencouncing
+              pleasure.
+            </p>
+          </div>
+
+          <div>
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#about">About Our Company</a></li>
+              <li><a href="#services">Services We Provide</a></li>
+              <li><a href="">Carreer & Opportunity</a></li>
+              <li><a href="">Privacy & Policy</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#about">About Company</a></li>
+              <li><a href="#testimonials">Our Testimonials</a></li>
+              <li><a href="">Latest News</a></li>
+              <li><a href="">Our Mission</a></li>
+              <li><a href="">Get a Free Quot</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Contact Us</h3>
+            <ul>
+              <li>Sagrada Familia, Herba</li>
+              <li>Street front USA</li>
+              <li>brandoxide@gmail.com</li>
+              <li>002-568423591</li>
+            </ul>
+          </div>
+
+          <div class="social-links-container">
+            <h3>Follow Us</h3>
+            <ul class="social-links">
+              <li>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <small>Copyright @ 2020 Brandoxide.all right reserved.</small>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="app.js"></script>
+
+    <script></script>
+  </body>
+</html>
